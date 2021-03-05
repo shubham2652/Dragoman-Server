@@ -8,7 +8,7 @@ Created on Wed Aug 12 00:26:28 2020
 from flask import Flask,jsonify,request
 from nltk import sent_tokenize
 
-from dragotrans import Translator
+from googletrans import Translator
 
 app = Flask(__name__)
 LANGUAGES = {
